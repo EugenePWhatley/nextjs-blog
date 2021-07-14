@@ -18,13 +18,12 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>[Preview] - {siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Weclome to my first Next.js app</p>
+        <p>Weclome to my first Preview App</p>
         <p>
-          (This is a sample website - you'll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          (This is a preview branch with a different profile picture.)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
